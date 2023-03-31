@@ -13,7 +13,7 @@ function Todo() {
         e.preventDefault();
     }
     const addTodo = () => {
-        if(todo !== ''){
+    if(todo !== ''){
         setTodos([...todos,{list:todo,id:Date.now(),status:false}])
         setTodo('')
         console.log(todos)

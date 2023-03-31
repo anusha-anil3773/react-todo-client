@@ -1,8 +1,12 @@
-body{
+/* body{
     background-image: url(../assets/abstract-colourful-watercolour-background-free-vector.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+} */
+
+body{
+    background-color: rgb(200, 241, 242);
 }
 .container{
     width: 40%;
